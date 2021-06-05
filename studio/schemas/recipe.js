@@ -86,12 +86,14 @@ export default {
         {
           title: "Block",
           type: "block",
-          styles: [
-            { title: "normal", value: "normal" }
-          ],
-          lists: []
         }
       ]
+    },
+    {
+      name: "likes", title: "Likes", type: "number"
     }
-  ]
+  ],
+  initialValue: {
+    likes: 0
+  }
 }
